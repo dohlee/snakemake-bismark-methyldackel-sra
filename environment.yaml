@@ -1,0 +1,13 @@
+name: bismark-methyldackel-sra
+channels:
+    - conda-forge
+    - bioconda
+    - defaults
+dependencies:
+    - snakemake
+    - bismark
+    - methyldackel
+    - trim-galore
+    - sambamba
+    - parallel-fastq-dump
+    - pysradb
