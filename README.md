@@ -20,7 +20,7 @@ $ cd snakemake-bismark-methyldackel
 
 2. Generate manifest file automatically by running `getmanifest` script.
 ```
-getmanifest -i [SRP_ID] -d [PATH_TO_SRAmetadb.sqlite]
+./getmanifest -i [SRP_ID] -d [PATH_TO_SRAmetadb.sqlite]
 ```
 
 3. Modify the configurations manifest file as you want.
