@@ -1,5 +1,7 @@
 .snakemake
 
+manifest.csv
+
 data/
 result/
 logs/

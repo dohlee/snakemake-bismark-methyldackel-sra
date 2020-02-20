@@ -9,5 +9,6 @@ dependencies:
     - methyldackel
     - trim-galore
     - sambamba
+    - ldc=1.11.0
     - parallel-fastq-dump
     - pysradb
