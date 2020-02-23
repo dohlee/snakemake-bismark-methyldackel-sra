@@ -65,7 +65,7 @@ def bismark_input(wildcards):
         'reference_dir': config['reference']['dir'],
         'bisulfite_genome_dir': str(Path(config['reference']['dir']) / 'Bisulfite_Genome'),
     }
-    if lib.upper().startswith('single'):
+    if lib.upper().startswith('SINGLE'):
         fastq = [
             str(RESULT_DIR / '01_trim-galore' / '{sample}.trimmed.fastq.gz')
         ]
