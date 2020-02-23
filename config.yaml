@@ -176,3 +176,38 @@ methyldackel_extract:
     nOB: False
     nCTOT: False
     nCTOB: False
+
+multiqc:
+    extra: ''
+    force: True
+    dirs: False
+    dirs_depth: False
+    fullnames: False
+    title: False
+    comment: False
+    outdir: False
+    template: False
+    comment: False
+    outdir: False
+    template: False
+    tag: False
+    ignore: False
+    ignore_symlinks: False
+    sample_names: False
+    file_list: False
+    exclude: False
+    module: False
+    data_dir: False
+    no_data_dir: False
+    data_format: 'tsv'
+    zip_data_dir: False
+    export: False
+    flat: False
+    interactive: False
+    lint: False
+    pdf: False
+    no_megaqc_upload: False
+    config: False
+    cl_config: False
+    verbose: False
+    quiet: False
