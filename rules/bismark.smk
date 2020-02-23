@@ -75,6 +75,7 @@ def bismark_input(wildcards):
             str(RESULT_DIR / '01_trim-galore' / '{sample}.read2.trimmed.fastq.gz'),
         ]
 
+    ret['fastq'] = fastq
     return ret
 
 BS = config['bismark']
